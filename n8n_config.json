@@ -1,0 +1,21 @@
+{
+  "generic": {
+    "timezone": "Europe/Amsterdam"
+  },
+  "logs": {
+    "level": "debug",
+    "output": "console,file",
+    "file": {
+      "location": "/home/node/.n8n/shared/logs/n8n.log",
+      "fileSizeMax": 16,
+      "fileCountMax": 100
+    }
+  },
+  "security": {
+    "basicAuth": {
+      "active": true,
+      "user": "user",
+      "password": "password"
+    }
+  }
+}
